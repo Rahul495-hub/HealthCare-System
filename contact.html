@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Healthcare System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #cfe8ff, #e0f7fa);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            width: 80%;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 20px;
+            box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+        .container:hover {
+            transform: scale(1.02);
+        }
+        h2 {
+            color: #007bff;
+            text-shadow: 2px 2px 5px rgba(0, 123, 255, 0.3);
+        }
+        p {
+            line-height: 1.6;
+            font-size: 16px;
+        }
+        .contact-info {
+            text-align: left;
+            margin-top: 20px;
+        }
+        .contact-info h3 {
+            color: #28a745;
+        }
+        .contact-info ul {
+            list-style: none;
+            padding: 0;
+        }
+        .contact-info ul li {
+            padding: 8px 0;
+            font-size: 16px;
+        }
+        .contact-form {
+            margin-top: 20px;
+            text-align: left;
+        }
+        .contact-form label {
+            font-weight: bold;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.2s ease-in-out;
+        }
+        .contact-form button:hover {
+            background-color: #0056b3;
+            transform: translateY(-3px);
+            box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>Have any questions or need assistance? Reach out to our healthcare team using the details below.</p>
+
+        <div class="contact-info">
+            <h3>Healthcare Official Contact Details:</h3>
+            <ul>
+                <li><strong>Phone:</strong> +91 98765 43210</li>
+                <li><strong>Email:</strong> support@healthcare.com</li>
+                <li><strong>Address:</strong> 123, Health Street, New Delhi, India</li>
+                <li><strong>Working Hours:</strong> Monday - Friday (9:00 AM - 6:00 PM)</li>
+            </ul>
+        </div>
+
+        <div class="contact-form">
+            <h3>Send Us a Message</h3>
+            <form action="#" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

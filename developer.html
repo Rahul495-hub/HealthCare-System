@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet Our Developers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #cce5ff, #b3e0ff);
+        }
+        .container {
+            width: 80%;
+            max-width: 800px;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+        .container:hover {
+            transform: scale(1.02);
+        }
+        h2 {
+            color: #007bff;
+            text-shadow: 2px 2px 5px rgba(0, 123, 255, 0.3);
+            font-size: 28px;
+        }
+        p {
+            line-height: 1.6;
+            font-size: 16px;
+            color: #333;
+        }
+        .developer-list {
+            text-align: left;
+            margin-top: 20px;
+        }
+        .developer-list h3 {
+            color: #28a745;
+            font-size: 22px;
+        }
+        .developer-list ul {
+            list-style: none;
+            padding: 0;
+        }
+        .developer-list ul li {
+            padding: 10px 0;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+        }
+        .developer-list ul li::before {
+            content: "💻";
+            font-size: 18px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Meet Our Developers</h2>
+        <p>Our healthcare system is built by a dedicated team of developers passionate about transforming healthcare with AI and innovative technology.</p>
+
+        <div class="developer-list">
+            <h3>Our Team:</h3>
+            <ul>
+                <li><strong>John Doe:</strong> Lead Developer - Expert in AI-driven healthcare solutions.</li>
+                <li><strong>Jane Smith:</strong> UI/UX Designer - Creating seamless user experiences.</li>
+                <li><strong>Michael Brown:</strong> Backend Developer - Ensuring smooth system operations.</li>
+                <li><strong>Sarah Johnson:</strong> Data Scientist - Powering predictions with machine learning.</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>

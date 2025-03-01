@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #cce5ff, #b3e0ff);
+        }
+        .container {
+            width: 80%;
+            max-width: 800px;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+        .container:hover {
+            transform: scale(1.02);
+        }
+        h2 {
+            color: #007bff;
+            text-shadow: 2px 2px 5px rgba(0, 123, 255, 0.3);
+            font-size: 28px;
+        }
+        p {
+            line-height: 1.6;
+            font-size: 16px;
+            color: #333;
+        }
+        .blog-list {
+            text-align: left;
+            margin-top: 20px;
+        }
+        .blog-list h3 {
+            color: #28a745;
+            font-size: 22px;
+        }
+        .blog-list ul {
+            list-style: none;
+            padding: 0;
+        }
+        .blog-list ul li {
+            padding: 10px 0;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+        }
+        .blog-list ul li::before {
+            content: "📰";
+            font-size: 18px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Welcome to Our Healthcare Blog</h2>
+        <p>Stay informed with the latest updates, research, and tips on healthcare and wellness.</p>
+
+        <div class="blog-list">
+            <h3>Latest Blog Posts:</h3>
+            <ul>
+                <li><strong>10 Ways to Strengthen Your Immune System</strong> - Learn how to boost your immunity naturally.</li>
+                <li><strong>The Future of AI in Healthcare</strong> - How AI is transforming medical diagnosis and treatments.</li>
+                <li><strong>Healthy Eating Habits for a Longer Life</strong> - Discover dietary habits for longevity and wellness.</li>
+                <li><strong>Managing Stress for Better Health</strong> - Techniques to reduce stress and improve mental well-being.</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
